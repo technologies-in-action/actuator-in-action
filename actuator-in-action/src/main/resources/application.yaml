@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: actuator-in-action
+  redis:
+    host: "localhost"
+    port: 6379
+    database: 0
+    password: redis-pass
+
+management:
+  health:
+    redis:
+      enabled: false
